@@ -9,3 +9,31 @@ Style sheet for
 html {
 	font-size: 16px;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Basic */
+
+.f, .fr, .frw, .fc, .fcw, .frnw, .fcnw {
+	display: flex;
+}
+
+.fr, .frw, .frnw {
+	flex-direction: row;
+}
+
+.fc, .fcw, .fcnw {
+	flex-direction: column;
+}
+
+.frw, .fcw {
+	flex-wrap: wrap;
+}
+
+.block {
+	display: block;
+}
+
