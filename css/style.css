@@ -91,11 +91,24 @@ button#siteLogo {
 }
 
 
+div.deck {
+	margin: 0;
+	padding: 1.5%;
+	height: 100%;
+	width: 100%;
+}
 
 
 section.card {
-	width: 50%;
+	width: 45%;
 	height: 100%;
+	margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+section.card-full {
+	width: 100%;
 }
 
 section.heroInfo {
